@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { MagnifyingGlassCircleIcon } from '@heroicons/react/24/outline'
 //import "./functions.tsx";
 
 function getTopics() { 
@@ -26,6 +27,7 @@ export default function Home() {
 
           <div className="bg-black row-start-2 col-span-2 row-span-7 p-8 m-1 rounded-lg shadow-lg">
             <h1 className="text-2xl text-center mb-6 font-bold">Topics List</h1>
+            <div className="bg-middle-gray p-2 mb-3 rounded-lg"> Search for a topic... </div>
             <ul className="text-lg list-disc m-1">
               <li>[ITEM 1]</li>
               <li>[ITEM 2]</li>
